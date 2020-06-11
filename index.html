@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Examen Pizzas</title>
+
+	<script src="libraries/p5.js"></script>
+
+	<style>
+		body {
+
+            background: #61EBF4;
+			margin:50;
+			padding:30;
+			overflow: hidden;
+		}
+		canvas {
+			margin:auto;
+		}
+
+		.info-pizza{
+			margin-top: 5%;
+			text-align: left;
+		}
+
+		.algoritmos{
+			margin-top: 3%;
+			font-size: 20px;
+		}
+
+		.algoritmos label{
+			margin-left: 18%;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="info-pizza">
+		<input type="number" name="" id="revanadas" placeholder="Ingresa el numero de rebanadas">
+		<button id="btn-revanadas"> pizza</button>
+	</div>
+	<div class="algoritmos">
+
+		<label>DDA</label>
+		<label>Bresenham</label>
+		<label>Punto Pendiente</label>
+	</div>
+
+	<script src="sketch.js"></script>
+</body>
+</html>
